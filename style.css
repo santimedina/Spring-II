@@ -1,19 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,100&family=Roboto:wght@100&display=swap');
 
-ul.list li {
-    width: auto;
-    height: auto;
-    float: left;
-    margin-inline: 50px;
-    background-color: hsl(0, 37%, 39%);
-    margin-left: -20px;
-    padding-left: 20px;
-  };
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family:  "Kantumruy+Pro", "Roboto";
+}
 
-
-
- /* ul.list li{
-    width: auto;
-    float: left;
-    margin-inline: 10px;
-    background-color: beige;
-  } */ 
+.root{
+  --primary: #6D6875; 
+  --secondary: #FFCDB2;
+  --terciary: #E5989B;
+}
